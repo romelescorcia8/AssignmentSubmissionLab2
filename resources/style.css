@@ -1,0 +1,25 @@
+
+#header {
+    display: table;
+    width: 100%;
+}
+#header > div {
+    display: table-cell;
+    width: 25%;
+}
+#header > div:nth-child(2) {
+    width: 50%;
+}
+
+.logo {
+   width: 20%;
+   float: left;
+}
+.divsearch {
+    width: 50%;
+    float: left;
+ }
+ .divmenu {
+    width: 30%;
+    float: left;
+ }
